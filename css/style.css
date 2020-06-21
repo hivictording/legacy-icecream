@@ -811,7 +811,7 @@ body {
 /* Contact Section */
 .contact {
   min-height: 10vh;
-  background: var(--color-about-bg-light);
+  background: var(--color-about-bg);
   padding: 3em 0;
 }
 
@@ -846,9 +846,9 @@ body {
   padding-top: 1em;
   /* border: 1px solid var(--color-about-bg); */
   border-radius: var(--radius);
-  box-shadow: 0 0.3em 0.3em var(--color-main-black-trans-1);
+  box-shadow: 0 0.3em 0.4em var(--color-main-black-trans-1);
   /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
-  background: var(--color-about-bg);
+  background: var(--color-about-bg-light);
 }
 
 .contact-form > .contact-form-title {
