@@ -33,7 +33,7 @@
 :root {
   --color-main-bg: hsla(105, 5%, 98%, 1);
   --color-main-black: hsla(225, 74%, 17%, 1);
-  --color-main-black-trans-1: rgba(11, 27, 75, 0.8);
+  --color-main-black-trans-1: rgba(11, 27, 75, 0.2);
   --color-main-black-trans-2: rgba(11, 27, 75, 0.8);
   --color-main-white: white;
   --color-primary: hsla(79, 54%, 51%, 1);
@@ -227,7 +227,7 @@ body {
 #header {
   min-height: 100vh;
   background: linear-gradient(
-      var(--color-main-black-trans-1),
+      var(--color-main-black-trans-2),
       var(--color-main-black-trans-2)
     ),
     url(../static/image/hero.jpg) center/cover no-repeat fixed;
@@ -844,9 +844,10 @@ body {
 .contact-form {
   width: 100%;
   padding-top: 1em;
-  border: 1px solid var(--color-about-bg);
+  /* border: 1px solid var(--color-about-bg); */
   border-radius: var(--radius);
-  /* box-shadow: 0 0.05em 0 var(--color-main-black); */
+  box-shadow: 0 0.3em 0.3em var(--color-main-black-trans-1);
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
   background: var(--color-about-bg);
 }
 
@@ -878,9 +879,10 @@ body {
   /* color: var(--color-primary) */
   width: 100%;
   padding: 1.2em 0;
-  border: 1px solid var(--color-about-bg);
+  /* border: 1px solid var(--color-about-bg); */
   border-bottom-left-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
+  border: none;
 }
 
 @media screen and (min-width: 768px) {
